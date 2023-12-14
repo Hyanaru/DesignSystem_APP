@@ -23,9 +23,9 @@ export default function TabLayout() {
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
       }}>
       <Tabs.Screen
-        name="index"
+        name="Sandbox"
         options={{
-          title: 'Tab One',
+          title: 'Test page',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
           headerRight: () => (
             <Link href="/modal" asChild>
@@ -43,13 +43,22 @@ export default function TabLayout() {
           ),
         }}
       />
+
       <Tabs.Screen
-        name="two"
+        name="UI Design"
         options={{
-          title: 'Tab Two',
+          title: 'UI Design',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
         }}
-      />
+      /> 
+      
+       <Tabs.Screen
+      name="UI Templates"
+      options={{
+        title: 'UI Templates',
+        tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
+      }}
+    />
     </Tabs>
   );
 }
