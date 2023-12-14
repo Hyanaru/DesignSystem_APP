@@ -1,4 +1,4 @@
-**Project Title: Mobile App Design System with React Native and Expo-Router Navigation**
+** Mobile App Design System with React Native and Expo-Router Navigation**
 
 **Objective:**
 This project embraced the Atomic Design paradigm to create a comprehensive design system for a mobile app. Utilizing React Native and Expo-Router navigation, the goal was to implement a modular and scalable approach to UI development.
