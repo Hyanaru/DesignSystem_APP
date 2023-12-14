@@ -7,7 +7,7 @@ import {  View } from '../components/Themed';
 
 
  
-  
+  //Hello
   const PrimarySeparator: React.FC= () => {
  
     return <View style={SEPARATOR.Primary} lightColor={TYPOGRAPHY.COLOR.Black} darkColor={TYPOGRAPHY.COLOR.White}  />;
