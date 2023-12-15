@@ -1,16 +1,12 @@
-import { StyleSheet } from "react-native";
-import { TYPOGRAPHY } from "../style/typography";
-import { SEPARATOR } from "../style/globals";
+//Style
+  import { TYPOGRAPHY } from "../style/typography";
+import { GlobalStyle } from "../style/globals";
+//COMPONENTS
 import {  View } from '../components/Themed';
 
-
-
-
- 
-  //Hello
   const PrimarySeparator: React.FC= () => {
  
-    return <View style={SEPARATOR.Primary} lightColor={TYPOGRAPHY.COLOR.Black} darkColor={TYPOGRAPHY.COLOR.White}  />;
+    return <View style={GlobalStyle.SeparatorPrimary} lightColor={TYPOGRAPHY.COLOR.Black} darkColor={TYPOGRAPHY.COLOR.White}  />;
   };
 
 

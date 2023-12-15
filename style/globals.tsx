@@ -1,17 +1,9 @@
 import { StyleSheet } from "react-native"
 
 
-const SEPARATOR = StyleSheet.create({
-    Primary:
-    { marginVertical: 30,
-    height: 1,
-    width: '80%'}
-
-});
 
 
-
-const styles = StyleSheet.create({
+const GlobalStyle = StyleSheet.create({
     container: {
       flex: 1,
       alignItems: 'center',
@@ -31,7 +23,10 @@ const styles = StyleSheet.create({
       height: 1,
       width: '80%',
     },
+    SeparatorPrimary: { marginVertical: 30,
+    height: 1,
+    width: '80%'}
   });
 
   
-export {SEPARATOR};
+export {GlobalStyle};

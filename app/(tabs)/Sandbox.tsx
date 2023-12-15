@@ -1,43 +1,29 @@
-import { StyleSheet,ScrollView } from 'react-native';
-import { MonoText } from '../../components/StyledText';
-import { Text, View } from '../../components/Themed';
+//React ELEMENTS
+import { ScrollView } from 'react-native';
 import React from 'react';
+//Style
+import { GlobalStyle } from '../../style/globals';
+//COMPONENTS
+import { MonoText } from '../../components/StyledText';
+import {  View } from '../../components/Themed';
+import PrimarySeparator from '../../components/Separator';
+import Subtitle from '../../components/Subtitle';
+import Title from '../../components/Title';
 
 
 export default function TabOneScreen() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Sandbox</Text>
+    <View style={GlobalStyle.container}>
+      <Title text={'Sandbox'}></Title>
       <MonoText>Styled</MonoText>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+      <PrimarySeparator/>
       <ScrollView>
-      <Text style={styles.subtitle}>
-        This is gonna be the test page
-      </Text>
+  <Subtitle text={'Sandbox page'}/>
 
       </ScrollView>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  subtitle:{
-    fontSize: 14,
-    fontWeight: 'bold',
-    alignContent: 'center'
-  },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
-    width: '80%',
-  },
-});
+
+
