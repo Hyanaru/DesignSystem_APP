@@ -2,23 +2,25 @@
 import { ScrollView } from 'react-native';
 import React from 'react';
 //Style
-import { GlobalStyle } from '../../style/globals';
+import { GLOBAL } from '../../style/globals';
 //COMPONENTS
-import { MonoText } from '../../components/StyledText';
+
 import {  View } from '../../components/Themed';
 import PrimarySeparator from '../../components/Separator';
 import Subtitle from '../../components/Subtitle';
 import Title from '../../components/Title';
+import { MonoText } from '../../components/Custom';
+
 
 
 export default function TabOneScreen() {
   return (
-    <View style={GlobalStyle.container}>
+    <View style={[GLOBAL.LAYOUT.container,GLOBAL.LAYOUT.pageContainer]}>
       <Title text={'Sandbox'}></Title>
       <MonoText>Styled</MonoText>
       <PrimarySeparator/>
       <ScrollView>
-  <Subtitle text={'Sandbox page'}/>
+      <Subtitle text={'Sandbox page'}/>
 
       </ScrollView>
     </View>
