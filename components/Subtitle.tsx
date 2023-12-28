@@ -1,6 +1,6 @@
 //Style
 import { TYPOGRAPHY } from "../style/typography";
-import { GlobalStyle } from "../style/globals";
+import { GLOBAL } from "../style/globals";
 //COMPONENTS
 import { Text } from '../components/Themed';
 //Interfaces
@@ -11,7 +11,7 @@ import ITextProps from "./Interfaces/ITextProps";
   const Subtitle: React.FC<ITextProps>= ({text,color=TYPOGRAPHY.COLOR.Secondary}) => {
  
     return (
-    <Text style={[GlobalStyle.subtitle,{color}]}>
+    <Text style={[GLOBAL.FONTS.subTitle,{color}]}>
         {text}
   </Text>
     )

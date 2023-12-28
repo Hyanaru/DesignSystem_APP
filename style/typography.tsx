@@ -1,13 +1,13 @@
 const COLOR = {
     // CTA
-    Primary:'#E4BFDF',
+    Primary:'#e376d4',
     Secondary: '#EEE1F1',
     Default:'#404040',
     DefaultSelected:'#5B5B5B',
     Border:'#9D9D9D',
     Success:'#2BC480',
     Warning:'#D91E5B',
-    Black:'#eee',
+    Black:'#000000',
     White:'rgba(255,255,255,0.1)',
   
     // Status Bar
@@ -15,7 +15,6 @@ const COLOR = {
   };
   
   const FONT = {
-    Primary: 'Helvetica',
     input: {
       height: 36,
       fontSize: 14,

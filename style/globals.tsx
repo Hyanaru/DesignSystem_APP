@@ -75,32 +75,27 @@ const CTA = {
 const FONTS = StyleSheet.create({
   h1: {
     fontSize: 30,
-    fontFamily: TYPOGRAPHY.FONT.Primary,
-    color: TYPOGRAPHY.COLOR.DefaultSelected,
+    color: TYPOGRAPHY.COLOR.Black,
   },
   body: {
     fontSize: 16,
-    fontFamily: TYPOGRAPHY.FONT.Primary,
     color: TYPOGRAPHY.COLOR.Default,
   },
   subTitle: {
     fontSize: 14,
-    fontFamily: TYPOGRAPHY.FONT.Primary,
-    color: TYPOGRAPHY.COLOR.Secondary,
+    color: TYPOGRAPHY.COLOR.Black,
   },
 });
 
 const TEXT = StyleSheet.create({
   Default: {
     textAlign: 'left',
-    fontFamily: TYPOGRAPHY.FONT.Primary,
     fontSize: 14,
     color: TYPOGRAPHY.COLOR.Primary,
   },
   Bold: {
     textAlign: 'left',
     fontSize: 14,
-    fontFamily: TYPOGRAPHY.FONT.Primary,
     color: TYPOGRAPHY.COLOR.Primary,
   },
 });
@@ -112,7 +107,6 @@ const TEXT_INPUT = {
       height: TYPOGRAPHY.FONT.input.height,
       borderRadius: TYPOGRAPHY.FONT.input.borderRadius,
       backgroundColor: TYPOGRAPHY.COLOR.Border,
-      fontFamily: TYPOGRAPHY.FONT.Primary,
       borderColor: TYPOGRAPHY.COLOR.Border,
       fontSize: TYPOGRAPHY.FONT.input.fontSize,
       borderWidth: TYPOGRAPHY.FONT.input.borderWidth,
@@ -122,7 +116,6 @@ const TEXT_INPUT = {
       fontSize: 12,
       textAlign: 'left',
       borderWidth: 1,
-      fontFamily: TYPOGRAPHY.FONT.Primary,
       borderColor: TYPOGRAPHY.COLOR.Border,
       color: TYPOGRAPHY.COLOR.Primary,
     },

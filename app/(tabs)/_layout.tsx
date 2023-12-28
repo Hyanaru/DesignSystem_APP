@@ -25,7 +25,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="Sandbox"
         options={{
-          title: 'Test page',
+          title: 'Sandbox',
           tabBarIcon: ({ color }) => <TabBarIcon name="code" color={color} />,
           headerRight: () => (
             <Link href="/modal" asChild>
